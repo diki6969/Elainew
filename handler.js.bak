@@ -34,21 +34,6 @@ export async function handler(chatUpdate) {
     if (global.db.data == null)
         await global.loadDatabase()
     try {
-  const response = await openai.createImageVariation(
-    fs.createReadStream("image.png"),
-    1,
-    "1024x1024"
-  );
-  console.log(response.data.data[0].url);
-} catch (error) {
-  if (error.response) {
-    console.log(error.response.status);
-    console.log(error.response.data);
-  } else {
-    console.log(error.message);
-  }
-}
-    try {
         m = smsg(this, m) || m
         if (!m)
             return
