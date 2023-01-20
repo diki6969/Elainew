@@ -1165,7 +1165,7 @@
   "settings": {
     "6289514509029@s.whatsapp.net": {
       "self": false,
-      "autoread": true,
+      "autoread": false,
       "autorestart": false,
       "anticall": true,
       "restartDB": 0,

@@ -1,12 +1,14 @@
-import fetch from "node-fetch"
-import { Configuration, OpenAIApi } from "openai";
-let handler = async (m, { conn, text }) => {
+import axios from 'axios'
+import fetch from 'node-fetch'
+import { Configuration, OpenAIApi } from 'openai';
+let handler = async (m, { command, conn, from, client, text, mek, image_url, img }) => {
 if (!text) throw "[!] Masukkan teks."
 const configuration = new Configuration({
-    apiKey: "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"
+    apiKey: global.aikey
 });
 if (command == 'ai') {
 m.reply('Sedang Mengetik')
+const openai = new OpenAIApi(configuration);
 const response = await openai.createCompletion({
             model: "text-davinci-003",
             prompt: text,
@@ -20,12 +22,14 @@ const response = await openai.createCompletion({
 }
 if (command == 'aidraw') {
 m.reply('Sedang Menggambar')
+const openai = new OpenAIApi(configuration);
 const response = await openai.createImage({
                    prompt: text,
                    n: 1,
                    size: "1024x1024",
                   });
-                  let url = image_url = response.data.data[0].url;
+let url = response.data.data[0].url;
+conn.sendFile(m.chat, response.data.data[0].url, `Hasil dari *${text}*`, m)
 }
 }
 handler.command = handler.help = ['ai', 'aidraw']

@@ -4,7 +4,7 @@ import { Configuration, OpenAIApi } from 'openai';
 let handler = async (m, { command, conn, from, client, text, mek, image_url, img }) => {
 if (!text) throw "[!] Masukkan teks."
 const configuration = new Configuration({
-    apiKey: "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"
+    apiKey: global.aikey,
 });
 if (command == 'ai') {
 m.reply('Sedang Mengetik')
@@ -28,7 +28,8 @@ const response = await openai.createImage({
                    n: 1,
                    size: "1024x1024",
                   });
-let url = response.data.data[0].url;               conn.sendFile(m.chat, response.data.data[0].url, 'aidraw.jpg', `Hasil dari *${text}*`, m)
+let url = response.data.data[0].url;
+conn.sendFile(m.chat, response.data.data[0].url, `Hasil dari *${text}*`, m)
 }
 }
 handler.command = handler.help = ['ai', 'aidraw']

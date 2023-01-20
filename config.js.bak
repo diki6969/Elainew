@@ -73,7 +73,7 @@ global.owner = [
 global.mods = [] // Want some help?
 global.prems = [] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
 
-global.aikey = 'apikeymu'
+
 global.lolkey = 'SGWN'
 global.xkey = 'APIKEYMU'
 /*============== API ==============*/
@@ -86,8 +86,7 @@ global.APIs = { // API Prefix
   ana: 'https://anabotofc.herokuapp.com/',
   adiisus: 'https://adiixyzapi.herokuapp.com',
   violetics : 'https://violetics.pw', 
-  males : 'https://malesin.xyz',
-  global.aikey : 'apikey'
+  males : 'https://malesin.xyz'
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
