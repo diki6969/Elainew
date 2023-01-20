@@ -371,7 +371,7 @@
       "roboxp": 0
     },
     "62856091885235@s.whatsapp.net": {
-      "exp": 995,
+      "exp": 1436,
       "limit": 19,
       "lastclaim": 0,
       "registered": false,
@@ -519,7 +519,7 @@
       "roboxp": 0
     },
     "6288272012752@s.whatsapp.net": {
-      "exp": 13,
+      "exp": 18,
       "limit": 25,
       "lastclaim": 0,
       "registered": false,
@@ -593,7 +593,7 @@
       "roboxp": 0
     },
     "6282281657946@s.whatsapp.net": {
-      "exp": 1313,
+      "exp": 2127,
       "limit": 25,
       "lastclaim": 0,
       "registered": false,
@@ -809,6 +809,80 @@
       "catexp": 0,
       "robo": 0,
       "roboxp": 0
+    },
+    "6281366428661@s.whatsapp.net": {
+      "exp": 17,
+      "limit": 25,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "REI・゜゜・",
+      "pasangan": "",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "warn": 0,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": true,
+      "money": 0,
+      "bank": 0,
+      "atm": 0,
+      "fullatm": 0,
+      "health": 100,
+      "potion": 10,
+      "trash": 0,
+      "wood": 0,
+      "rock": 0,
+      "string": 0,
+      "emerald": 0,
+      "diamond": 0,
+      "gold": 0,
+      "iron": 0,
+      "upgrader": 0,
+      "common": 0,
+      "uncommon": 0,
+      "mythic": 0,
+      "legendary": 0,
+      "superior": 0,
+      "pet": 0,
+      "horse": 0,
+      "horseexp": 0,
+      "cat": 0,
+      "catngexp": 0,
+      "fox": 0,
+      "foxexp": 0,
+      "dog": 0,
+      "dogexp": 0,
+      "horselastfeed": 0,
+      "catlastfeed": 0,
+      "foxlastfeed": 0,
+      "doglastfeed": 0,
+      "armor": 0,
+      "armordurability": 0,
+      "sword": 0,
+      "sworddurability": 0,
+      "pickaxe": 0,
+      "pickaxedurability": 0,
+      "fishingrod": 0,
+      "fishingroddurability": 0,
+      "lastadventure": 0,
+      "lastfishing": 0,
+      "lastdungeon": 0,
+      "lastduel": 0,
+      "lastmining": 0,
+      "lasthunt": 0,
+      "lastweekly": 0,
+      "lastmonthly": 0,
+      "lastbunga": 0,
+      "premium": false,
+      "premiumTime": 0,
+      "limitjoin": 0,
+      "petFood": 0,
+      "catexp": 0,
+      "robo": 0,
+      "roboxp": 0
     }
   },
   "chats": {
@@ -948,10 +1022,10 @@
   },
   "stats": {
     "menu.js": {
-      "total": 29,
-      "success": 29,
-      "last": 1674134131096,
-      "lastSuccess": 1674134131096
+      "total": 32,
+      "success": 32,
+      "last": 1674195491061,
+      "lastSuccess": 1674195491061
     },
     "speed.js": {
       "total": 3,
@@ -1072,6 +1146,18 @@
       "success": 3,
       "last": 1674134129092,
       "lastSuccess": 1674134129092
+    },
+    "aimenu.js": {
+      "total": 7,
+      "success": 2,
+      "last": 1674145847136,
+      "lastSuccess": 1674145836363
+    },
+    "menuai.js": {
+      "total": 48,
+      "success": 27,
+      "last": 1674195550785,
+      "lastSuccess": 1674195550785
     }
   },
   "msgs": {},
